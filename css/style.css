@@ -96,7 +96,7 @@ a{
   width: 45%;
 }
 
-#main_content p, #aside_destra p, a, #aside_sotto{
+#main_content p, #aside_destra p, a, #aside_sotto p{
   padding: 5px;
 }
 
