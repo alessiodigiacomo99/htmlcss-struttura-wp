@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png");
+  width: 70%;
+  margin: auto;
+}
+
+.sfondo_natural{
+  height: 300px;
+  width: 100%;
+  background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-header.jpg");
+  background-size: cover;
+  margin-top: 10px;
+  position: relative;
+  border: 10px solid white;
+  cursor: pointer;
+}
+
+.logo_natural{
+  height: 50%;
+  width: 35%;
+  background-image: url("https://naturaldemo.files.wordpress.com/2016/07/natural-logo.png?w=698");
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
