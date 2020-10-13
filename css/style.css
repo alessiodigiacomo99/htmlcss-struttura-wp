@@ -81,8 +81,8 @@ ul li:hover{
   cursor: pointer;
 }
 
-#aside_sinistra{
-  width: 25%;
+#aside_sinistra,section{
+  width: 26%;
 }
 
 a{
@@ -100,6 +100,46 @@ a{
   padding: 5px;
 }
 
-section{
-  width: 27%;
+.fine::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#site_footer{
+  width: 99%;
+  height: 20vh;
+  position: relative;
+}
+
+i{
+  font-size: 100px;
+  width: 33.333%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-facebook-square:hover{
+  color: blue;
+}
+
+.fa-instagram:hover{
+  color: pink;
+}
+
+.fa-twitter:hover{
+  color: lightblue;
+}
+
+ .icone::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3{
+  text-align: center;
+  color: grey;
+  font-style: italic;
+  text-transform: capitalize;
 }
