@@ -10,6 +10,7 @@ body{
   margin: auto;
 }
 /* utility class */
+
 .float_left{
   float: left;
 }
@@ -18,128 +19,55 @@ body{
   float: right;
 }
 
-.bg_white{
-  background-color: white;
-  margin: 5px;
-}
-
 /* /utility class */
-
-h2{
-  text-transform: uppercase;
-  font-style: italic;
-  font-size: 20px;
-}
-.sfondo_natural{
-  height: 300px;
+header{
   position: relative;
+}
+
+.sfondo_natural{
+  display: inline-block;
+  height: 300px;
   width: 100%;
-  background-image: url("https://s0.wp.com/wp-content/themes/premium/natural/images/natural-default-header.jpg");
-  background-size: cover;
   margin-top: 10px;
-  border: 10px solid white;
-  cursor: pointer;
+  background-color: red;
 }
 
-.logo_natural{
-  height: 20vh;
-  width: 20vw;
-  background-image: url("https://naturaldemo.files.wordpress.com/2016/07/natural-logo.png?w=698");
-  background-size: cover;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-nav{
-  background-color: rgb(80, 71, 65);
-}
 .nav_bar{
-  width: 65%;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(80, 71, 65);
   margin: auto;
+  position: absolute;
+  bottom: 0;
 }
-
-.nav_bar::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.nav_bar ul li{
-  float: left;
-  list-style: none;
-  text-transform: uppercase;
-  color: white;
-  padding: 5px;
-  font-weight: 800;
-  border-left: 2px solid #302b27;
-}
-
-ul li:hover{
-  background-color: #302b27;
-  cursor: pointer;
+main{
+  margin-top: 10px;
 }
 
 #aside_sinistra,section{
-  width: 26%;
+  width: 25%;
 }
 
-a{
-  width: 100%;
-  display: inline-block;
-  color: green;
-  text-decoration: none;
+#aside_sinistra, #aside_destra, #aside_sotto{
+  background-color: yellow;
+  margin-bottom: 10px;
 }
 
 #main_content{
-  width: 45%;
+  width: 40%;
+  margin: 0 5%;
+  background-color: purple;
 }
 
-#main_content p, #aside_destra p, a, #aside_sotto p{
-  padding: 5px;
-}
-
-.fine::after{
+main::after{
   content: "";
   display: table;
   clear: both;
 }
 
 #site_footer{
-  width: 99%;
-  height: 20vh;
-  position: relative;
-}
-
-i{
-  font-size: 100px;
-  width: 33.333%;
-  text-align: center;
-  cursor: pointer;
-}
-
-.fa-facebook-square:hover{
-  color: blue;
-}
-
-.fa-instagram:hover{
-  color: pink;
-}
-
-.fa-twitter:hover{
-  color: lightblue;
-}
-
- .icone::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-h3{
-  text-align: center;
-  color: grey;
-  font-style: italic;
-  text-transform: capitalize;
+  width: 100%;
+  height: 200px;
+  background-color: lightblue;
+  margin-top: 5px;
 }
